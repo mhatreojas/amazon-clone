@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     height: 60px;
-  color: white;
-    background-color:#0f1111;
+    color: white;
+    background-color: #0f1111;
 }
-.nav-logo{
+
+.nav-logo {
     height: 50px;
     width: 100px;
 }
-.logo{
-    background-image: url("C:\Web Development\Amazon clone\amazon_logo.png");
-   height: 50px;
-   width: 100% ;
-   background-size: cover;
+
+.logo {
+    background-image: url("amazon_logo.png"); /* Assuming the image is in the same directory */
+    height: 50px;
+    width: 100%;
+    background-size: cover;
 }
