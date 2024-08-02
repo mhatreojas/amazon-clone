@@ -8,6 +8,7 @@
     height: 60px;
     color: white;
     background-color: #0f1111;
+    display: flex;
 }
 
 .nav-logo {
@@ -20,4 +21,14 @@
     height: 50px;
     width: 100%;
     background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-addess{
+color:#CCCCCC;
+
 }
