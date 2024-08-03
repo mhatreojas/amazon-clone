@@ -134,3 +134,84 @@ span{
 .hero-msg a{
     color:#007185
 }
+.box{
+height: 100px;
+border: none;
+width:23%;
+ height: 400px;
+ background-color: white;
+ padding: 20px 0px 15px;
+ margin-top: 15px;
+ 
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-image{
+    margin-top: 1rem;
+ margin-bottom:1rem;
+    height: 300px;
+    background-size: cover;
+}
+.box-content{
+ margin-left: 1rem;
+ margin-right:1rem;
+}
+footer{
+    margin-top: 10px;
+}
+.panel-1{
+    background-color: #37475a;
+    color: white;
+    height:50px;
+    display:flex;
+align-items: center;
+justify-content: center;
+
+}
+.panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: .85rem;
+margin-top: 10px;
+color:#DDDDDD
+}
+.panel-3{
+    background-color: #222f3d;
+border-top:0.5px solid white; 
+height: 70px;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo-f{
+    
+        background-image: url("amazon_logo.png"); /* Assuming the image is in the same directory */
+        height: 50px;
+        width: 100px;
+        background-size: cover;
+
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #0f1111;
+    color: #DDDDDD;
+    height: 20px;
+}
